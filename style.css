@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  background-color: #caf0f8;
+  border: thick double #000127;
+  margin: 4px;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-content {
+  height: 244px;
+  width: 206px;
+  border: 1px solid #90e0ef;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  overflow: hidden;
+  /* mix-blend-mode: multiply; */
+}
+.top-section h2 {
+  font-size: 3.5rem;
+  font-weight: 750;
+  color: #03045e;
+  text-decoration: underline;
+}
+/* .top-section h2:hover {
+    color: #90E0EF;
+} */
+.top-section h4 {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 450;
+  color: #03045e;
+  text-decoration: underline;
+}
+.about-section {
+  margin-top: 10px;
+}
+.about-section h3 {
+  font-size: 3rem;
+  font-weight: 750;
+  color: #03045e;
+}
+.about-section p {
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 25px;
+  letter-spacing: 1.1px;
+  color: #010224;
+}
+.img-second {
+  height: 350px;
+  width: 897px;
+  margin-top: 10px;
+  border: 2px solid #90e0ef;
+  background-image: url("imgs/Dr.\ APJ\ Kalam.jpg");
+  background-size: cover;
+}
+.biography-section {
+  margin-top: 20px;
+}
+.biography-section h3 {
+  font-size: 2.5rem;
+  font-weight: 750;
+  color: #03045e;
+}
+.biography-section ul {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #010224;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 25px;
+  letter-spacing: 1.1px;
+}
+footer {
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+}
+footer p {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #010224;
+}
+footer a {
+  text-decoration: none;
+}
